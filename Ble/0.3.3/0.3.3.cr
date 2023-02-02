@@ -10,7 +10,7 @@ class Target < ISM::Software
         super
         showInfo("After the installation, if you wish to use Ble, add this to your .bashrc file:")
         showInfoCode("\t[[ $- == *i* ]] && source /usr/share/ble/ble.sh --attach=none")
-        showInfoCode("\t[[ ${BLE_VERSION-} ]] && ble-attach                                ")
+        showInfoCode("\t[[ ${BLE_VERSION-} ]] && ble-attach                          ")
     end
 
 end
