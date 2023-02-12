@@ -1,5 +1,5 @@
 {
-  "port": "Shell-Extra",
+  "port": "Shells-Extra",
   "name": "Ble",
   "version": "0.3.3",
   "architectures": ["x86_64"],
