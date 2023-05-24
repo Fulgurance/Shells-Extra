@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Bash Line Editor command line editor written in pure Bash which replaces the default GNU Readline",
   "website": "https://github.com/akinomyoga/ble.sh",
-  "downloadLinks": ["https://github.com/akinomyoga/ble.sh/releases/download/v0.3.3/ble-0.3.3.tar.xz"],
-  "md5sums": ["1e4a4e70cd8f93d08991430ea3be0e9a"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {
