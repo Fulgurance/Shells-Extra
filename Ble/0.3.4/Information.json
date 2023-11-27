@@ -1,0 +1,21 @@
+{
+  "port": "Shells-Extra",
+  "name": "Ble",
+  "version": "0.3.4",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "Bash Line Editor command line editor written in pure Bash which replaces the default GNU Readline",
+  "website": "https://github.com/akinomyoga/ble.sh",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Bash",
+      "version": ">=3.0.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueOptions": []
+}
