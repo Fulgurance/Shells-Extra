@@ -10,9 +10,11 @@ class Target < ISM::Software
     def showInformations
         super
 
+        showInfoTitle
         showInfo("After the installation, if you wish to use Ble, add this to your .bashrc file:")
-        showInfoCode("\t[[ $- == *i* ]] && source /usr/share/ble/ble.sh --attach=none")
-        showInfoCode("\t[[ ${BLE_VERSION-} ]] && ble-attach                          ")
+        showInfoCode("[[ $- == *i* ]] && source /usr/share/ble/ble.sh --attach=none")
+        showInfoCode("[[ ${BLE_VERSION-} ]] && ble-attach                          ")
+        showEndInfo
     end
 
 end
