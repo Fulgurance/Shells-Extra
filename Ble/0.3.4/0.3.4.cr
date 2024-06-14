@@ -4,7 +4,9 @@ class Target < ISM::Software
         super
 
         makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share")
-        copyDirectory("#{workDirectoryPath}/Sources","#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/ble")
+
+        copyDirectory(  "#{workDirectoryPath}/Sources",
+                        "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/ble")
     end
 
     def showInformations
