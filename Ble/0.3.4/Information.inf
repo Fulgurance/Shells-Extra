@@ -1,0 +1,19 @@
+PORT
+    Shells-Extra
+NAME
+    Ble
+VERSION
+    0.3.4
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Bash Line Editor command line editor written in pure Bash which replaces the default GNU Readline
+WEBSITE
+    https://github.com/akinomyoga/ble.sh
+DEPENDENCIES
+        @Shells-Main:Bash>=3.0.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES
